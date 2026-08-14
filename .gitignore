@@ -1,0 +1,20 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Runtime data (local SQLite DB + logs, not source)
+claims.db
+logs/
+
+# Editor/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Claude Code local tooling config (not project source)
+.claude/
