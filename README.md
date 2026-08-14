@@ -19,8 +19,9 @@ few seconds with zero API calls and zero cost, and never touches the
 real `claims.db` (each test gets an isolated temp DB).
 
 
-## Flowchart of the agents 
+## Flowchart of the agents
 
+```
 Claim Submission
       │
       ▼
@@ -48,3 +49,4 @@ Planner Agent
                 ▼
  Approved Payment /
  Claim Rejection Notice
+```
